@@ -80,7 +80,7 @@ export default {
 .bg_box {
   height: 100%;
   width: 100%;
-  background-image: url("@/image/bg.jpg");
+  background-image: url("~@/image/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
