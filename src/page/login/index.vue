@@ -58,13 +58,13 @@ export default {
   mounted() {},
   methods: {
     submitForm() {
-      let params = {
-        ...this.ruleForm
-      }
-      this.$store.dispatch('Login', params).then(res => {
-        this.$router.push({name: 'Home'})
-      })
-      
+      // let params = {
+      //   ...this.ruleForm
+      // }
+      // this.$store.dispatch('Login', params).then(res => {
+      //   this.$router.push({name: 'Home'})
+      // })
+      this.$router.push({name: 'Home'})
     },
     submitSign() {
       let params = {

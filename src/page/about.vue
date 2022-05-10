@@ -5,12 +5,12 @@
 </template>
 
 <script>
-  import SideMenu from '@/layout/sideMenu'
+  // import SideMenu from '@/layout/sideMenu'
 
  export default {
    name: '',
    components: {
-     SideMenu
+    //  SideMenu
    },
    data () {
      return {

@@ -7,10 +7,10 @@
 
 <script>
 import  './components/bkForm/index.jsx'
-import Layout from "@/layout";
+// import Layout from "@/layout";
 export default {
   components: {
-    Layout,
+    // Layout,
   },
 };
 </script>
